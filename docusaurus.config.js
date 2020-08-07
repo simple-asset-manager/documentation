@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Simple Asset Manager',
   tagline: "Real Estate is complex.  Your software shouldn't be.",
-  url: 'https://help.simpleassetmanager.com',
+  url: 'https://simple-asset-manager.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'jmitchell33', // Usually your GitHub org/user name.
-  projectName: 'simple_asset_manager_docs', // Usually your repo name.
+  organizationName: 'simple-asset-manager', // Usually your GitHub org/user name.
+  projectName: 'documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Simple Asset Manager',
@@ -13,7 +13,7 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
