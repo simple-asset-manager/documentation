@@ -2,7 +2,7 @@ module.exports = {
   title: 'Simple Asset Manager',
   tagline: "Real Estate is complex.  Your software shouldn't be.",
   url: 'https://simple-asset-manager.github.io',
-  baseUrl: '/',
+  baseUrl: '/documentation/',
   favicon: 'img/favicon.ico',
   organizationName: 'simple-asset-manager', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
