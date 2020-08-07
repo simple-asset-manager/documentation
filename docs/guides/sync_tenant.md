@@ -18,6 +18,4 @@ The Tenant Invitation (and Invite Code) will only work for the e-mail address pr
 
 Once an Invitation is sent, the Tenant creates an account with Simple Asset Manager and enters the *Invite Code* to sync with the Property.
 
-><div class="image-frame">
-  <img alt="Tenant Sync Form Invite Sent" src={useBaseUrl('img/sync_tenant.png')} />
-</div>
+<blockquote><img alt="Tenant Sync Form Invite Sent" src={useBaseUrl('img/sync_tenant.png')} /></blockquote>

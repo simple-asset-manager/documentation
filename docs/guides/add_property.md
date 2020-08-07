@@ -25,10 +25,7 @@ Getting up and running with Simple Asset Manager is, well, simple.
 
 > Sequoia Springs is a Retail property located at 333 Jefferson Street, San Francisco, California 94133. 
 
-><div class="image-frame">
-  <img alt="Add a Property" src={useBaseUrl('img/add_property_form.png')} />
-</div>
-
+<blockquote><img alt="Add a Property" src={useBaseUrl('img/add_property_form.png')} /></blockquote>
 
 ## Then, Add Buildings to the Property
 
@@ -47,9 +44,7 @@ Getting up and running with Simple Asset Manager is, well, simple.
 - Building B is 20,000 square feet.
 - Building C is 20,000 square feet. 
 
-><div class="image-frame">
-  <img alt="Add a Building" src={useBaseUrl('img/add_building_form.png')} />
-</div>
+<blockquote><img alt="Add a Building" src={useBaseUrl('img/add_building_form.png')} /></blockquote>
 
 ## Next, Add Tenants to the Buildings
 
@@ -198,13 +193,15 @@ Getting up and running with Simple Asset Manager is, well, simple.
   - Tenant Improvements & Leasing Commissions (TIs and LCs)
     - Prospective Tenant will be offered a $15.00 psf Tenant Improvement and the Leasing Commission will be 6% of the Base Rent over the 10 year term.  Both will be paid on the projected commencement date, January 1, 2021.
 
-><div class="image-frame">
-  <img alt="Add Tenant General Information" src={useBaseUrl('img/add_tenant_form_1.png')} />
-  <img alt="Add Tenant Rent" src={useBaseUrl('img/add_tenant_form_2.png')} />
-  <img alt="Add Leasing Costs" src={useBaseUrl('img/add_tenant_form_3.png')} />
-  <img alt="Add Option Information" src={useBaseUrl('img/add_tenant_form_4.png')} />
-  <img alt="Add Contact Information" src={useBaseUrl('img/add_tenant_form_5.png')} />
-</div>
+<blockquote>
+  <div class="image-frame">
+    <img alt="Add Tenant General Information" src={useBaseUrl('img/add_tenant_form_1.png')} />
+    <img alt="Add Tenant Rent" src={useBaseUrl('img/add_tenant_form_2.png')} />
+    <img alt="Add Leasing Costs" src={useBaseUrl('img/add_tenant_form_3.png')} />
+    <img alt="Add Option Information" src={useBaseUrl('img/add_tenant_form_4.png')} />
+    <img alt="Add Contact Information" src={useBaseUrl('img/add_tenant_form_5.png')} />
+  </div>
+</blockquote>
 
 ## Finally, Add the Expenses
 
@@ -291,10 +288,12 @@ Accordingly, the same expense paid quarterly is calculated as $10,000 * 4 = $40,
 
 
 
-><div class="image-frame">
-  <img alt="Add Expense Category" src={useBaseUrl('img/add_expense_form_1.png')} />
-  <img alt="Add Expense Line Item" src={useBaseUrl('img/add_expense_form_2.png')} />
-</div>
+<blockquote>
+  <div class="image-frame">
+    <img alt="Add Expense Category" src={useBaseUrl('img/add_expense_form_1.png')} />
+    <img alt="Add Expense Line Item" src={useBaseUrl('img/add_expense_form_2.png')} />
+  </div>
+</blockquote>
 
 
 
@@ -318,9 +317,7 @@ Select "Dates" under the Property section on the sidebar.  The dates selected fo
 
 >The Proforma Period for Sequoia Springs is January 1, 2021 through December 31, 2021.
 
-><div class="image-frame">
-  <img alt="Add Proforma Date Period" src={useBaseUrl('img/add_option_dates.png')} />
-</div>
+<blockquote><img alt="Add Proforma Date Period" src={useBaseUrl('img/add_option_dates.png')} /></blockquote>
 
 ### Valuation
 Select "Cap Rate" under the Valuation section on the sidebar.  The Capitalization Rate entered will be applied to the Net Operating Income over the Proforma Period selected, resulting in the Property Valuation that is displayed on the Dashboard and Proforma tabs.
@@ -329,9 +326,7 @@ Select "Cap Rate" under the Valuation section on the sidebar.  The Capitalizatio
 
 >The Capitalization Rate for Sequoia Springs is 7.00%.  This is based on a recent sale of a comparable 75,000 square foot shopping center, Redwood Village, which sold at a 6.75% cap rate.  The Cap Rate for Sequoia Springs has been increased by 0.25% due to Redwood Village being fully occupied while Sequoia Springs currently has one vacancy.
 
-><div class="image-frame">
-  <img alt="Add Capitalization Rate" src={useBaseUrl('img/add_option_valuation.png')} />
-</div>
+<blockquote><img alt="Add Capitalization Rate" src={useBaseUrl('img/add_option_valuation.png')} /></blockquote>
 
 ### Vacancy and Credit Loss Reserves
 Select "Credit / Vacancy Loss" under the Tenants section on the sidebar.  This section allows for reserving against rental income that will not be collected and appears as the "Less: Vacancy" line on the Proforma tab.
@@ -341,6 +336,4 @@ Select "Credit / Vacancy Loss" under the Tenants section on the sidebar.  This s
 >- Super Greens Grocery credit rating was recently re-evaluated and upgraded to a AA, as a result there will not be any vacancy reserve held against this tenant.
  - Garden Galore is current on their rental obligations, but paid late multiple times throughout 2020.  As a result, the Asset Manager has elected to increase their Vacancy Factor to 7.50%.
 
-><div class="image-frame">
-  <img alt="Credit and Vacancy Loss" src={useBaseUrl('img/add_option_vacancy.png')} />
-</div>
+<blockquote><img alt="Credit and Vacancy Loss" src={useBaseUrl('img/add_option_vacancy.png')} /></blockquote>
