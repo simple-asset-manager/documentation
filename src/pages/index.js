@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Asset Managers</>,
+    imageUrl: 'img/index/asset_manager.jpg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Maximize performance and leverage property, tenant, and market data to finally answer "How's your property doing?"
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>Tenants</>,
+    imageUrl: 'img/index/tenant.jpg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Pay Rent, Track Sales, Review documents, Coordinate Maintenance Requests and more.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Investors</>,
+    imageUrl: 'img/index/investor.jpg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Receive distributions, invest in new projects, and keep up with the latest news on properties.
       </>
     ),
   },
@@ -48,8 +45,8 @@ function Feature({imageUrl, title, description}) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <h3 className="text--center">{title}</h3>
+      <p className="text--center">{description}</p>
     </div>
   );
 }
@@ -59,7 +56,7 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title} - Documentation and Discussion`}
       description="Description will go into a meta tag in <head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
