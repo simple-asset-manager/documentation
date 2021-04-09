@@ -15,7 +15,7 @@ This chart details the property's upcoming lease, income, and square footage exp
 The Lease and Income Expiration information can be viewed or filtered as follows:
 - Viewing Options
 	- **List** displays the Lease and Income Expiration as a table.  Click on any column to sort the list by that category.
-		<blockquote><img alt="Lease and Income Expiration List" src={useBaseUrl('img/lease_exp_list.png')} /></blockquote>
+		<blockquote><img alt="Lease and Income Expiration List" src={useBaseUrl('img/asset_manager/dashboard/lease_exp_list.png')} /></blockquote>
 
 	-	**Chart** displays the Lease And Income Expiration as a combination chart displaying:
 		-	*Square Footage Expiring* per year expressed as a bar chart.
@@ -23,7 +23,7 @@ The Lease and Income Expiration information can be viewed or filtered as follows
 		- Hover over any bar or line on the chart to see which tenants are included in the GLA and Base Rent expiring for a particular year (as shown in the image below).
 		-	Drag or resize the area below the main chart to change, expand or contract the time period included.
 		
-		<blockquote><img alt="Lease and Income Expiration Chart" src={useBaseUrl('img/lease_exp_chart.png')} /></blockquote>
+		<blockquote><img alt="Lease and Income Expiration Chart" src={useBaseUrl('img/asset_manager/dashboard/lease_exp_chart.png')} /></blockquote>
 
 - Filter by Tenant Status
 	-	Select one or all of the Tenant Statuses to only include tenants that match the selected statuses.
@@ -42,7 +42,7 @@ Once a task is completed, click the checkbox to move the task to the Completed t
 
 Tasks can be deleted by clicking the trashcan.
 
-<blockquote><img alt="To-Do List" src={useBaseUrl('img/task_list.png')} /></blockquote>
+<blockquote><img alt="To-Do List" src={useBaseUrl('img/asset_manager/dashboard/task_list.png')} /></blockquote>
 
 
 ### Top Tenants
@@ -52,9 +52,9 @@ The Top Tenants describes which tenants (up to the Top 5) occupy the most space 
 The Top Tenant information can be viewed or filtered as follows:
 - Viewing Options
 	- **List** displays the Top Tenants as a table.  Click on any column to sort the list by that category.
-	<blockquote><img alt="Top Tenants List" src={useBaseUrl('img/top_tenants_list.png')} /></blockquote>
+	<blockquote><img alt="Top Tenants List" src={useBaseUrl('img/asset_manager/dashboard/top_tenants_list.png')} /></blockquote>
 	-	**Grid** displays the Top Tenants grouped by their contribution to the property's leased pace, Base Rent, and Reimbursements (NNN Rent).
-	<blockquote><img alt="Top Tenants Grid" src={useBaseUrl('img/top_tenants_grid.png')} /></blockquote>
+	<blockquote><img alt="Top Tenants Grid" src={useBaseUrl('img/asset_manager/dashboard/top_tenants_grid.png')} /></blockquote>
 	
 - Filter by Tenant Status
 	-	Select one or all of the Tenant Statuses to only include tenants that match the selected statuses.
@@ -66,13 +66,14 @@ The Available Suites & Tenant Prospects provides a summary of current deals in p
 The Available Suites & Tenant Prospects information can be viewed or filtered as follows:
 - Viewing Options
 	- **List** displays the Available Suites & Tenant Prospects as a table.  Click on any column to sort the list by that category.
-		<blockquote><img alt="Prospects List" src={useBaseUrl('img/prospects_list.png')} /></blockquote>
+		<blockquote><img alt="Prospects List" src={useBaseUrl('img/asset_manager/dashboard/prospects_list.png')} /></blockquote>
 
 	-	**Grid** displays the Available Suites & Tenant Prospects as cards.  The grid view provides more detailed information such as:
 		- Proforma Rent Assumptions
 		- Tenant Improvement Allowance
 	
-		<blockquote><img alt="Prospects Grid" src={useBaseUrl('img/prospects_grid.png')} /></blockquote>
+		<blockquote><img alt="Prospects Grid" src={useBaseUrl('img/asset_manager/dashboard/prospects_grid.png')} />
+		</blockquote>
 
 - Filter by Tenant Status
 	-	Select one or all of the Tenant Statuses to only include tenants that match the selected statuses.
@@ -85,7 +86,7 @@ Tenant Payment Status provides the current payment status of Charges that have b
 The Tenant Payment Status information can be viewed or filtered as follows:
 - Viewing Options
 	- Outstanding charges are displayed per tenant based on the filters applied.  Aggregate charge information includes the number of charges submitted, total amount due, total amount received, and the balance owed.  Click on "More Details" to view individual charge and payment status within this total.
-	<blockquote><img alt="Tenant Payments" src={useBaseUrl('img/tenant_payments.png')} /></blockquote>
+	<blockquote><img alt="Tenant Payments" src={useBaseUrl('img/asset_manager/dashboard/tenant_payments.png')} /></blockquote>
 
 - Filter by Tenant Status
 	-	Select one or all of the Tenant Statuses to only include tenants that match the selected statuses.

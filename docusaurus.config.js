@@ -1,16 +1,21 @@
 module.exports = {
-  title: 'Simple Asset Manager',
-  tagline: "Real Estate is complex.  Your software shouldn't be.",
-  url: 'https://docs.simpleassetmanager.com',
-  baseUrl: '/documentation/',
+  title: 'SAM Community :: Education & Training',
+  tagline: "Understand the Fundamentals",
+  url: 'https://community.simpleassetmanager.com',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'simple-asset-manager', // Usually your GitHub org/user name.
-  projectName: 'documentation', // Usually your repo name.
+  projectName: 'education', // Usually your repo name.
   themeConfig: {
+    // algolia: {
+    //   apiKey: 'ec91977a19498233b2d536dbcea11c44',
+    //   indexName: 'simpleassetmanager',
+    //   searchParameters: {}, // Optional (if provided by Algolia)
+    // },
     navbar: {
-      title: 'Simple Asset Manager',
+      title: '',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Simple Asset Manager Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -22,11 +27,11 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/simple-asset-manager/',
           label: 'GitHub',
           position: 'right',
         },
-      ],
+      ]
     },
     footer: {
       style: 'dark',
@@ -66,7 +71,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/simple-asset-manager/documentation/',
+              href: 'https://github.com/simple-asset-manager/education/',
             },
           ],
         },

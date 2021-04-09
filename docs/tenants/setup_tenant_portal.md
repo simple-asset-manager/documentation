@@ -12,7 +12,7 @@ Once you have received the Tenant Invitation in your e-mail, register for an acc
 
 When setting up your new account, be sure to select "Tenant" from the options after verifying your e-mail address.
 
-<blockquote><img alt="Create your Account" src={useBaseUrl('img/setup_tenant_portal_account_creation.png')} /></blockquote>
+<blockquote><img alt="Create your Account" src={useBaseUrl('img/tenants/tenant_portal/setup_tenant_portal_account_creation.png')} /></blockquote>
 
 After finalizing your account information, enter the Tenant Invitation code that was included in the e-mail.
 
@@ -20,4 +20,4 @@ After finalizing your account information, enter the Tenant Invitation code that
 The Tenant Invitation code will look like **b37cd4db-499a-4a94-91c5-0b88450e41c7**
 :::
 
-<blockquote><img alt="Create your Account" src={useBaseUrl('img/setup_tenant_portal_invitation_code.png')} /></blockquote>
+<blockquote><img alt="Create your Account" src={useBaseUrl('img/tenants/tenant_portal/setup_tenant_portal_invitation_code.png')} /></blockquote>

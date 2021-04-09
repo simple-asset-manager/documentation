@@ -1,12 +1,12 @@
 {
-  "name": "simple-asset-manager-docs",
+  "name": "simple-asset-manager-education",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy"
+    "deploy": "export GIT_USER=simple-asset-manager;docusaurus deploy"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.61",

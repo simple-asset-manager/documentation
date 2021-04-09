@@ -22,7 +22,7 @@ Depending on the amount of money transferred per week and whether the account is
 
 Once your account is approved and a bank account linked - you may begin charging Tenants and collecting rent entirely online.
 
-<blockquote><img alt="Add Bank" src={useBaseUrl('img/add_bank_add_bank.png')} /></blockquote>
+<blockquote><img alt="Add Bank" src={useBaseUrl('img/guides/add_bank/add_bank_add_bank.png')} /></blockquote>
 
 :::note
 More broadly known as "Know Your Customer", the purpose of performing this due diligence is to verify the identity of individuals wishing to conduct a financial transaction, while also giving a reasonable understanding of the type of activity in which each customer will engage.  
@@ -63,7 +63,7 @@ Select "Request Payment" from the sidebar to charge a Tenant.
 	- Internal Notes & Information
 		- Any notes or attachments entered in this section will not be shared with the Tenant.
 
-<blockquote><img alt="Request Payment" src={useBaseUrl('img/add_bank_charge_request.png')} /></blockquote>
+<blockquote><img alt="Request Payment" src={useBaseUrl('img/guides/add_bank/add_bank_charge_request.png')} /></blockquote>
 
 ### Staging vs. Submit Charge
 Once all the information for a Charge has been entered, there are two options:
@@ -71,7 +71,7 @@ Once all the information for a Charge has been entered, there are two options:
     - Select a single or multiple charges in Staging to either Submit or Delete the selected charges.
     - Staging is designed to be a queue for charges that are finalized but require approval or review before submitting to the Tenant.  Once a charge is in Staging, it may not be edited. <br/>  If a charge is incorrect, delete the charge and create a new one.
 
-<blockquote><img alt="Request Payment" src={useBaseUrl('img/add_bank_charge_staging.png')} /></blockquote>
+<blockquote><img alt="Request Payment" src={useBaseUrl('img/guides/add_bank/add_bank_charge_staging.png')} /></blockquote>
 
 - **Save & Submit to Tenant** moves the charge to "Submitted" and sends an e-mail notification to the Tenant if they are synced.
     - Once a charge is submitted, its status can be tracked on the Payments card in the Dashboard and under "View Payments".
@@ -93,10 +93,10 @@ If a Tenant is *not synced*, or makes a payment via cash or a check - payments c
 
 
 <blockquote>
-	<div class="image-frame">
-	<img alt="Select Charge for Payment" src={useBaseUrl('img/add_bank_charge_post_table.png')} />
+	<div className="image-frame">
+	<img alt="Select Charge for Payment" src={useBaseUrl('img/guides/add_bank/add_bank_charge_post_table.png')} />
 		<hr/>
 		<hr/>
-	<img alt="Post Payment" src={useBaseUrl('img/add_bank_charge_post_payment.png')} />
+	<img alt="Post Payment" src={useBaseUrl('img/guides/add_bank/add_bank_charge_post_payment.png')} />
 	</div>
 </blockquote>
