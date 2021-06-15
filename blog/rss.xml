@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Simple Asset Manager Blog</title>
+        <link>https://docs.simpleassetmanager.com/blog</link>
+        <description>Simple Asset Manager Blog</description>
+        <lastBuildDate>Sat, 01 Feb 2020 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[How to transfer Dropbox files to OneDrive]]></title>
+            <link>https://docs.simpleassetmanager.com/blog/transfer-dropbox-files-to-onedrive</link>
+            <guid>transfer-dropbox-files-to-onedrive</guid>
+            <pubDate>Sat, 01 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Most of us nowadays have devices with small internal storage, like me - and have devices with small hard drives but cloud storage with massive storage - it can be difficult to sync Dropbox, OneDrive, Google Drive, etc.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://docs.simpleassetmanager.com/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to Simple Asset Manager.]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,1 @@
+(self.webpackChunksimple_asset_manager_docs=self.webpackChunksimple_asset_manager_docs||[]).push([[2236],{4009:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"onedrive","name":"onedrive","count":1,"permalink":"/blog/tags/onedrive"}')}}]);

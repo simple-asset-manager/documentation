@@ -1,0 +1,1 @@
+(self.webpackChunksimple_asset_manager_docs=self.webpackChunksimple_asset_manager_docs||[]).push([[3376],{8073:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"cloud","name":"cloud","count":1,"permalink":"/blog/tags/cloud"}')}}]);

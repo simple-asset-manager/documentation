@@ -1,0 +1,1 @@
+(self.webpackChunksimple_asset_manager_docs=self.webpackChunksimple_asset_manager_docs||[]).push([[3676],{2101:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"simple-asset-manager","name":"simple asset manager","count":2,"permalink":"/blog/tags/simple-asset-manager"}')}}]);

@@ -1,0 +1,1 @@
+(self.webpackChunksimple_asset_manager_docs=self.webpackChunksimple_asset_manager_docs||[]).push([[8146],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"How to transfer Dropbox files to OneDrive","permalink":"/blog/transfer-dropbox-files-to-onedrive"},{"title":"Welcome","permalink":"/blog/welcome"}]}')}}]);
